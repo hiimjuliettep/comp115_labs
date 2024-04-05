@@ -13,10 +13,9 @@ def practice_if(score, average):
             print("Nicely done!")
 
 
-##print(practice_if(80,80))
+print(practice_if(80,80))
 
-#Because the score is equal to the average, none of the elif parts 
-#parts of the function apply, the score needs to be over 80 
+#Because the score is equal to the average, none of the elif parts of the function apply, the score needs to be over 80 
 #to return 'great job!
 
 #Question 2
@@ -29,13 +28,12 @@ def practice_for_if(nums, target):
     return list
 
 
-#this function will check the 
-#numbers we enter and check them against the target value
+#this function will check the numbers we enter and check them against the target value
 #so if we entered ([5,5,2,9], 3) the function would return 
 #(5,5,9) because those values are greater than the "target" variable
 
+print(practice_for_if([5, 5, 2, 9], 3))
 
-##print(practice_for_if([5, 5, 2, 9], 3))
 
 #Question 3:
 
@@ -45,15 +43,13 @@ def practice_function(nums):
         if num % 2 == 0:
             even_list.append(num)
 
-#This function checks if entered numbers are even or odd
-#by dividing by two and checking if there is any remainder 
-#if the number%2 is equal to 0, it is even
-# if you entered "(5, 5, 2, 9, 6)" into it this function would return
+#This function checks if entered numbers are even or odd by dividing by two and checking if there is any remainder 
+#if the number%2 is equal to 0, it is even if you entered "(5, 5, 2, 9, 6)" into it this function would return
 #Nothing in its current state as there is no return prompt
 
-#print(2%2)
-#practice_function(5, 5, 2, 9, 6)
-#print(even_list(practice_function([5, 5, 2, 9, 6])))
+print(2%2)
+practice_function(5, 5, 2, 9, 6)
+print(even_list(practice_function([5, 5, 2, 9, 6])))
 
 ##Question 4,5,6
 
@@ -123,8 +119,8 @@ def exist_in_both(str1, str2):
         continue 
     return shared_index
 
-#print(exist_in_both('lap', 'help'))
-#print(exist_in_both('computer', 'mute'))
+print(exist_in_both('lap', 'help'))
+print(exist_in_both('computer', 'mute'))
 
 ##Q10
 
@@ -135,8 +131,8 @@ def good_neighbours(word):
             pair_index += 1 
     return pair_index 
 
-#print(good_neighbours('happiness'))
-#print(good_neighbours('arrrrhhh'))
+print(good_neighbours('happiness'))
+print(good_neighbours('arrrrhhh'))
 
 #Q11 
 
